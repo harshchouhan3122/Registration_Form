@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entry Form</title>
+    <link rel="stylesheet" href="./styles1.css">
+
+</head>
+<body>
+
+    <h1> <u>Registration Form </u></h1>
+    <table style="border: 2px solid black;">
+        <thead>
+            <th></th>
+            <th></th>
+        </thead>
+        <tbody>
+
+            <tr>
+                <td class="column1" >Name</td>
+                <td class="column2"><input type="text" name="name" placeholder="Enter your Full Name" required></td>
+            </tr>
+
+            <tr>
+                <td class="column1">Date of Birth</td>
+                <td class="column2"><input type="date" name="date" placeholder="DOB" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="column1">Age</td>
+                <td class="column2"><input type="number" name="Age" placeholder="Years" required max="50" min="1"></td>
+            </tr>
+
+            <tr>
+                <td class="column1">Contact</td>
+                <td class="column2"><input type="tel" name="tel" placeholder="+91 -" required maxlength="10"></td>
+            </tr>
+
+            <tr>
+                <td class="column1">Address</td>
+                <!-- <td class="column2"><input type="text" class="address" name="Address" placeholder="Full Address" required maxlength="100"></td> -->
+                <td class="column2">
+                    <textarea cols="35" rows="4" maxlength="100" placeholder="Full Address" required >
+
+                    </textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="column1">Gender</td>
+                <td class="column2">
+                    Male
+                        <input type="radio" class="radio" name="Gender" placeholder="" required>
+                    
+                    Female
+                        <input type="radio" class="radio" name="Gender" placeholder="" required>
+                    
+                    Other
+                        <input type="radio" class="radio" name="Gender" placeholder="" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="column1">Language</td>
+                <td class="column2">
+                    C
+                        <input type="checkbox" class ="checkbox" name="Languages" placeholder="" >
+
+                    C++
+                        <input type="checkbox" class ="checkbox" name="Languages" placeholder="" >
+
+                    Python
+                        <input type="checkbox" class ="checkbox" name="Languages" placeholder="" >
+
+                    HTML
+                        <input type="checkbox" class ="checkbox" name="Languages" placeholder="" >
+
+                    <!-- Other
+                        <input type="text" name="Languages" placeholder="" > -->
+                </td>
+            </tr>
+            <tr>
+                <td class="column1"></td>
+                <td class="column2">
+                    Other
+                        <input type="text" name="Languages" placeholder="" >
+                </td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <th colspan="2">
+            <button class="register" type="submit">Register</button>
+
+            <button class="clear" type="reset">Clear</button>
+            </th>
+        </tfoot>
+
+    </table>
+
+</body>
+</html>

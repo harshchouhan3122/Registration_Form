@@ -1,0 +1,82 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+
+table{
+    align-content: center;
+    border: 2px solid rgb(12, 12, 12);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: whitesmoke;
+    padding-bottom: 10px;
+    
+}
+
+tr{
+    justify-content: space-between;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+td.column1{
+    padding-left: 100px;
+    width: 200px;
+}
+
+td.column2{
+    height: 50px;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+textarea{
+    font-size: 20PX;
+}
+
+input{
+    font-size: 20px;
+}
+
+input.address{
+    width: 250 px;
+    height: 150px;
+}
+
+
+input.radio {
+    width: 20px;
+    height: 20px;
+    margin-right: 40px;
+}
+
+input.checkbox {
+    width: 20px;
+    height: 20px;
+    margin-right: 40px;
+}
+
+button{
+    margin-top: 50px;
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    font-size: 30px;
+    color: rgb(12, 12, 11);
+    margin-bottom: 20px;
+}
+
+button.register{
+    background-color: rgb(93, 201, 192);
+    margin-left: 500px;
+    margin-right: 40px;
+}
+
+button.clear{
+    background-color: rgb(111, 192, 118); 
+}
